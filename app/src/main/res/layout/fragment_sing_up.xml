@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ffbbaf"
+    android:layout_height="match_parent"
+    tools:context="com.deepjoshi.frag.SingUp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Singin_Tone"
+        android:textSize="40dp"
+        android:textColor="#ffffba"
+        android:text="WelCome To MyApp" />
+    <EditText
+        android:id="@+id/Singin_ETone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/Singin_ETtwo"
+
+        android:layout_height="wrap_content" />
+    <AutoCompleteTextView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:id="@+id/autoCompleteTextView" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/Singin_BTone"
+        android:text="SingIn"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
